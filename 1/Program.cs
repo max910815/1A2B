@@ -46,6 +46,7 @@ namespace _1
                     Console.WriteLine("-------------------------\n");
                     Console.Write("請輸入 4 個數字：");
                     string str = Console.ReadLine();
+                    //text
                     for(int i = 0; i < 4; i++)
                     {
                         strs[i] = Convert.ToInt32(str[i]) - '0';
